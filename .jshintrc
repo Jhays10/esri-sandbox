@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "undef": true,
+  "unused": "vars",
+  "asi": true,
+  "proto": true,
+  "loopfunc": true
+}

@@ -1,0 +1,10 @@
+node_modules/**/build
+node_modules/**/builderror.log
+node_modules/**/libusdt.a
+.DS_Store
+npm-debug.log
+test/report.tap
+Error.log
+test.tap
+checkstyle-result.xml
+*.heapsnapshot

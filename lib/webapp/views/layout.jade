@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1")
+    title ESRI Sandbox
+
+    link(rel="stylesheet", href="/bower_components/bootstrap/dist/css/bootstrap.css")
+    link(rel="stylesheet", href="/bower_components/font-awesome/css/font-awesome.min.css")
+
+    link(rel="stylesheet", href="http://js.arcgis.com/3.10/js/esri/css/esri.css")
+
+    link(rel="stylesheet", href="/styles/main.css")
+
+    block styles
+
+  body
+    .container-fluid
+      block content
+
+  script(src="/bower_components/jquery/dist/jquery.min.js")
+  script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+
+  script(src="http://js.arcgis.com/3.10/")
+
+  script(src="/scripts/main.js")
+
+  block scripts
